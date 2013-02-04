@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 
@@ -11,6 +11,7 @@ end
 
 group :development do
   gem 'sqlite3'
+end
 
 
 # Gems used only for assets and not required
